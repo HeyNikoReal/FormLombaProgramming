@@ -1,153 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="16dp"
+    android:orientation="vertical"
     tools:context=".ConfirmActivity">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
         android:text="KONFIRMASI PENDAFTARAN\nLOMBA
 PROGRAMMING"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="32dp"
-        />
+        android:textStyle="bold" />
+
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
-        <TableRow
-            android:padding="6dp">
+        android:layout_height="wrap_content">
+
+        <TableRow android:padding="6dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nama"
                 android:textSize="17sp"
 
-            />
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=":"
-                android:textSize="17sp"
                 android:layout_marginLeft="16dp"
-                />
+                android:text=":"
+                android:textSize="17sp" />
+
             <TextView
                 android:id="@+id/tv_nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tampung Nama"
                 android:layout_marginLeft="16dp"
-                />
+                android:text="Tampung Nama" />
         </TableRow>
-        <TableRow
-            android:padding="6dp">
+
+        <TableRow android:padding="6dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Jenis Kelamin"
-                android:textSize="17sp"
-                />
+                android:textSize="17sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=":"
-                android:textSize="17sp"
                 android:layout_marginLeft="16dp"
-                />
+                android:text=":"
+                android:textSize="17sp" />
+
             <TextView
                 android:id="@+id/tv_jenis_kelamin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tampung Jenis Kelamin"
                 android:layout_marginLeft="16dp"
-                />
+                android:text="Tampung Jenis Kelamin" />
         </TableRow>
-        <TableRow
-            android:padding="6dp">
+
+        <TableRow android:padding="6dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="No Whatsapp"
                 android:textSize="17sp"
 
-            />
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=":"
-                android:textSize="17sp"
                 android:layout_marginLeft="16dp"
-                />
+                android:text=":"
+                android:textSize="17sp" />
+
             <TextView
                 android:id="@+id/tv_no_whatsapp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tampung No Whatsapp"
                 android:layout_marginLeft="16dp"
-                />
+                android:text="Tampung No Whatsapp" />
         </TableRow>
-        <TableRow
-            android:padding="6dp">
+
+        <TableRow android:padding="6dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Alamat"
-                android:textSize="17sp"
-                />
+                android:textSize="17sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=":"
-                android:textSize="17sp"
                 android:layout_marginLeft="16dp"
-                />
+                android:text=":"
+                android:textSize="17sp" />
+
             <TextView
                 android:id="@+id/tv_alamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tampung Alamat"
                 android:layout_marginLeft="16dp"
-                />
+                android:text="Tampung Alamat" />
         </TableRow>
-        <TableRow
-            android:padding="6dp">
+
+        <TableRow android:padding="6dp">
+
             <Button
                 android:id="@+id/btn_tanggal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pilih Tanggal"
 
-            android:textSize="12sp"
-            />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=":"
-                android:textSize="17sp"
                 android:layout_marginLeft="16dp"
-                />
+                android:text=":"
+                android:textSize="17sp" />
+
             <TextView
                 android:id="@+id/tv_tanggal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="-"
                 android:layout_marginLeft="16dp"
-                />
+                android:text="-" />
         </TableRow>
     </TableLayout>
+
     <Button
         android:id="@+id/btn_konfirmasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="KONFIRMASI"
         android:layout_marginTop="32dp"
-        />
+        android:text="KONFIRMASI" />
 </LinearLayout>
